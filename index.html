@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style2.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<title>CODEHACKER WELCOMES YOU</title>
+<meta name="description" content="WELCOME TO CODEHACKER OFFICIAL SITE">
+<link rel="author" href="https://lautenschlager.de" />
+<link rel="icon" type="image/jpg" sizes="32x32" href="img/laptop-coding.png">
+<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="all" />
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/flexboxgrid.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/theme.css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<script>
+    function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    }
+
+    function getCookie(cname) {
+        var name = cname + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+
+    function checkCookie() {
+        var user = getCookie("username");
+        if (user != "") {
+            alert("Welcome again " + user);
+        } else {
+            user = prompt("Please enter your name:", "");
+            if (user != "" && user != null) {
+                setCookie("username", user, 365);
+            }
+        }
+    }
+
+
+
+</script>
+
+<body>
+    <command>rr</command>
+    <header class="fade-in">
+        <div class="navigation-bar flex middle-xs">
+            <img src="img/laptop-coding.png" class="logo">
+            <nav class="end-xs">
+                <ul>
+                    <li><a href="#about-us">POULAR LANGUAGES</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="hero flex middle-xs" style="background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)), url('img/screen-code-coding-programming.jpg');
+    }">
+            <div class="hero-text ">
+                <h1>CODE HACKER</h1>
+                <p>WELCOMES YOU TO THEIR OFFICIAL SITE.</p>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <main>
+            <section class="intro" id="about-us">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md">
+                            <h2 class="section-title">POULAR LANGUAGES</h2>
+                        </div>
+                    </div>
+
+                    <div class="row team center-xs">
+                        <div class="col-md">
+                            <div class="hover-outer-box">
+                                <img src="img/we.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>PYTHON</h3>
+                                        <p>THE MOST DEMANDING LANGUAGE</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="team-name">PYTHON<br /><span class="position">MOST DEMANDING LANGUAGE</span></p>
+                        </div>
+                        <div class="col-md">
+                            <div class="hover-outer-box">
+                                <img src="img/e1.png">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>JAVA</h3>
+                                        <p>LANGUAGE USED IN MOST OF THE MICROCHIPS</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="team-name">JAVA<br /><span class="position">USED IN MICROCHIPS</span></p>
+                        </div>
+                        <div class="col-md">
+                            <div class="hover-outer-box">
+                                <img src="img/screen-code-coding-programming.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3></h3>
+                                        <p></p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="team-name">Magda Ilija<br /><span class="position">CFO</span></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr />
+
+            <section class="cta middle-xs">
+                <div class="container">
+                    <div class="row middle-md">
+                        <div class="col-md-8">
+                            <h2>Contact</h2>
+                            <p></p>
+                            <a href="/welcome.html"><button class="light">Call to action</button></a>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/cta-display.png" class="display">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <div class="row center-xs">
+                        <div class="col-md">
+                            <h2 class="section-title">Portfolio</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="padding-small">
+                    <div class="row margin-bottom-small">
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/download.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href="./pycharm-community-2020.2.2.exe"><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/project-2.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href=""><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/project-3.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href=""><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small">
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/project-4.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href=""><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/project-5.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href=""><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="hover-outer-box">
+                                <img src="img/project-6.jpg">
+                                <div class="hover-inner-box">
+                                    <div class="hover-content">
+                                        <h3>Projecttitle</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr</p>
+                                        <a href=""><button class="light">Call to action</button></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="cta">
+                <div class="container">
+                    <div class="row center-xs">
+                        <div class="col-md">
+                            <h2>Call to action</h2>
+                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                                invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+                                accusam et justo duo dolores et ea rebum.</p>
+                            <a href="/TEMPLATES/welcome.html"><button class="light">Call to action</button></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blurbs" id="benefits">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md center-xs">
+                            <h2 class="section-title">Benefits</h2>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small center-xs">
+                        <div class="col-md">
+                            <img src="img/001-achievement.svg" class="icon ">
+                            <h3>Benefit 1</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/002-pencil.svg" class="icon">
+                            <h3>Benefit 2</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/003-idea.svg" class="icon">
+                            <h3>Benefit 3</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                    </div>
+                    <div class="row center-xs">
+                        <div class="col-md">
+                            <img src="img/004-shopping-bag.svg" class="icon">
+                            <h3>Benefit 4</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                        <div class="col-md">
+                            <img src="img/005-fountain-pen.svg" class="icon">
+                            <h3>Benefit 5</h3>
+                            <p>Lorem ipsum dolor sit amet, c-r adipiscing elit. In maximus ligula semper metus
+                                pellentesque mattis. Maecenas volutpat, diam enim. </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="newsletter">
+                <div class="container">
+                    <div class="row center-xs">
+                        <div class="col-md ">
+                            <h2>Our newsletter</h2>
+                            <form class="flex center-xs">
+                                <input placeholder="Enter Your Email" type="email" required="" name="">
+                                <button>SUBSCRIBE</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md center-xs">
+                            <h2 class="section-title">Contact</h2>
+                        </div>
+                    </div>
+                    <div class="row margin-bottom-small center-xs">
+                        <div class="col-md">Call Us<br />+49 561 0000 0000</div>
+                        <div class="col-md">Address<br />Streetname 12</div>
+                        <div class="col-md">Email<br />kontakt@lautenschlager.de</div>
+                    </div>
+                    <form action="">
+                        <div class="row margin-bottom-small center-xs">
+
+                            <div class="col-md padding-small">
+                                <div class="row">
+                                    <div class="col-md">
+                                        <input placeholder="Enter Your Name" type="text" name="" value=""
+                                            class="margin-bottom-small">
+                                        <input placeholder="Enter Your Email" type="email" name="" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md padding-small">
+                                <textarea placeholder="Your Message" name="" rows="8"
+                                    class="margin-bottom-small"></textarea>
+                                <input type="submit" value="Submit">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md center-xs">
+                    <img src="img/logo-footer.svg" class="margin-bottom" style="max-width: 150px;">
+                </div>
+            </div>
+            <div class="row margin-bottom-small">
+                <div class="col-md-8">
+                    <h3>About us</h3>
+                    <p>NOTHING NEW,JUST A TRY TO MAKE DAILY LIFE EASIER</p>
+                <div class="col-md-4">
+                    <h3>Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about-us">About us</a></li>
+                        <li><a href="./pycharm-community-2020.2.2.exe">DOWNLOAD PYCHARM,THE IDE MADE FOR PYTHON</a></li>
+                        <li><a href="./er.py">DOWNLOAD OUR AI </a></li>
+                        <li><a href="./403.html">WHY US</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+
+            </div>
+        </div>
+    </footer>
+
+    <div class="row secondary-footer">
+        <div class="col-md">
+            <p>Made with love ♥ by Andreas Lautenschlager © 2019.</p>
+        </div>
+        <div class="col-md end-md">
+            <p><a href="#">Imprint</a> | <a href="#">Data Protection</a></p>
+        </div>
+    </div>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?callback=polyfillsAreLoaded" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
